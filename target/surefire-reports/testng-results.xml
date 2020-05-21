@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RunTest" duration-ms="21030" started-at="2020-05-20T09:42:11 BRT" finished-at="2020-05-20T09:42:32 BRT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunTest@9a7504c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="21030" started-at="2020-05-20T09:42:11 BRT" finished-at="2020-05-20T09:42:32 BRT">
+      <class name="RunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunTest@9a7504c]" name="setUpClass" is-config="true" duration-ms="235" started-at="2020-05-20T09:42:11 BRT" finished-at="2020-05-20T09:42:11 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunTest@9a7504c]" name="runScenario" duration-ms="20690" started-at="2020-05-20T09:42:11 BRT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-20T09:42:32 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["ID01 - Realizar login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunTest@9a7504c]" name="tearDownClass" is-config="true" duration-ms="71" started-at="2020-05-20T09:42:32 BRT" finished-at="2020-05-20T09:42:32 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- RunTest -->
+</testng-results>
